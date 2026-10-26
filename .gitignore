@@ -1,0 +1,7 @@
+.gradle/
+build/
+build-local/
+Seismo/build/
+SeismoWallpaper/build/
+artifacts/*
+!artifacts/*.apk

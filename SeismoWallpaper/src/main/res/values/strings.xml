@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Seismo Wallpaper</string>
+    <string name="wallpaper_name">Seismo</string>
+    <string name="description">A live, customizable acceleration trace.</string>
+    <string-array name="axis">
+        <item>x</item><item>y</item><item>z</item><item>Vector magnitude</item>
+    </string-array>
+    <string-array name="axis_values">
+        <item>0</item><item>1</item><item>2</item><item>3</item>
+    </string-array>
+    <string-array name="range_g">
+        <item>±0.10 g</item><item>±0.25 g</item><item>±0.50 g</item><item>±1 g</item>
+        <item>±2 g</item><item>±3 g</item><item>±5 g</item><item>±10 g</item>
+    </string-array>
+    <string-array name="range_values">
+        <item>0.1</item><item>0.25</item><item>0.5</item><item>1</item>
+        <item>2</item><item>3</item><item>5</item><item>10</item>
+    </string-array>
+    <string-array name="rate_names">
+        <item>200 samples/s</item><item>100 samples/s</item><item>67 samples/s</item><item>50 samples/s</item>
+        <item>30 samples/s</item><item>20 samples/s</item><item>10 samples/s</item>
+    </string-array>
+    <string-array name="rate_values">
+        <item>5</item><item>10</item><item>15</item><item>20</item><item>33</item><item>50</item><item>100</item>
+    </string-array>
+</resources>

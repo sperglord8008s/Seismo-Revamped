@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <string name="app_name">Seismo</string>
+<string name="help"><b>Seismo</b> measures device acceleration and draws a live trace. Choose an axis, adjust the ±g range to zoom the trace, and switch filtering on or off. Filtering removes the steady gravity component. Pause freezes measurement. Save keeps the last 60 seconds in the app; Export shares a selected recording as CSV. The wallpaper edition offers the same axis and filtering controls, adjustable update rate, and custom trace and background colors.</string>
+</resources>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:title="Seismo Wallpaper settings">
+    <CheckBoxPreference
+        android:key="filter"
+        android:title="Gravity removal / centering"
+        android:summary="Center motion around zero by removing the slow gravity offset"
+        android:defaultValue="true" />
+    <ListPreference
+        android:key="axis"
+        android:title="Axis"
+        android:summary="Choose an axis or combine all three as vector magnitude"
+        android:entries="@array/axis"
+        android:entryValues="@array/axis_values" />
+    <ListPreference
+        android:key="sensitivity_g"
+        android:title="Acceleration range"
+        android:summary="Set the visible full-scale acceleration"
+        android:entries="@array/range_g"
+        android:entryValues="@array/range_values"
+        android:defaultValue="0.5" />
+    <CheckBoxPreference
+        android:key="auto_range"
+        android:title="Auto fit raw readings"
+        android:summary="Scale the live graph to the current readings"
+        android:defaultValue="true" />
+    <CheckBoxPreference
+        android:key="spectrum"
+        android:title="FFT spectrum"
+        android:summary="Show frequency components instead of the live time trace"
+        android:defaultValue="false" />
+    <ListPreference
+        android:key="sample_period"
+        android:title="Update rate"
+        android:summary="Balance trace detail and battery use"
+        android:entries="@array/rate_names"
+        android:entryValues="@array/rate_values"
+        android:defaultValue="33" />
+    <com.ariwilson.seismowallpaper.ColorPickerPreference
+        android:key="line_color"
+        android:title="Line color"
+        android:summary="Set the line color" />
+    <com.ariwilson.seismowallpaper.ColorPickerPreference
+        android:key="background_color"
+        android:title="Background color"
+        android:summary="Set the background color" />
+</PreferenceScreen>

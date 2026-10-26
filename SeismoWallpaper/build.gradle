@@ -1,0 +1,16 @@
+plugins {
+    id 'com.android.application'
+}
+
+android {
+    namespace 'com.ariwilson.seismowallpaper'
+    compileSdk 36
+
+    defaultConfig {
+        applicationId 'com.ariwilson.seismowallpaper'
+        minSdk 21
+        targetSdk 36
+        versionCode 4
+        versionName '2.0'
+    }
+}
